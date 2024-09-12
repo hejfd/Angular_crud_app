@@ -1,4 +1,8 @@
 .example-spacer {
     flex: 1 1 auto;
   }
+  .custom-blue-toolbar {
+    background-color: #2196f3; /* A shade of blue */
+    color: white; /* Text color for better contrast */
+  }
   
