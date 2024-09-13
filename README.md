@@ -6,11 +6,11 @@ step 2: open terminal and install the dependincies  `npm i`
 
 step 3: run the crud app `ng serve`
 
-step 3: create anither terminal and install json server `npm install json-server`
+step 3: create anither terminal and install json server `$ npx json-server db.json`
 
 step 5: run the json server `json-server --watch db.json`
 
-step 6:after following this steps you can get the result at port  `http://localhost:4200/` if it is unused.
+step 6:after following this steps you can get the result at port  `http://localhost:4200/` if it is un used.
 
 
 
