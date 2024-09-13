@@ -17,17 +17,28 @@ mat-form-field{
    
 }
 
-.button-cancel {
-   
-    color:rgb(248, 243, 243);
-    background-color: red;
-    margin-left:140px;
-}
-.button-save{
-    
-    color: white;
-    background-color: green;
-    margin-left: 80px;
-    
 
-}
+
+button {
+    width: 100%; 
+    padding: 10px 0;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .save-button {
+    background-color: #4CAF50; 
+    color: white;
+  }
+  
+  .cancel-button {
+    background-color: #f44336; 
+    color: white;
+  }
+  
+  button:hover {
+    opacity: 0.9; 
+  }
+  

@@ -28,31 +28,13 @@
   },
   "employees": [
     {
-      "id": "1ce6",
-      "firstName": "Virat ",
-      "lastName": "Kohli",
-      "email": "viratkohli@gamil.com",
-      "dob": "2002-07-19T18:30:00.000Z",
-      "gender": "Male",
-      "education": "SSLC"
-    },
-    {
-      "id": "6772",
-      "firstName": "jerin",
+      "firstName": "JErin",
       "lastName": "james",
       "email": "jerinjames672@gmail.com",
       "dob": "2002-01-01T18:30:00.000Z",
       "gender": "Male",
-      "education": "Degree"
-    },
-    {
-      "id": "1554",
-      "firstName": "Mohit",
-      "lastName": "Sharma",
-      "email": "mohit@gmail.com",
-      "dob": "1000-12-31T18:06:32.000Z",
-      "gender": "",
-      "education": "Plus Two"
+      "education": "Degree",
+      "id": "6772"
     }
   ]
 }

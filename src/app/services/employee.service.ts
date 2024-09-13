@@ -14,6 +14,10 @@ export class EmployeeService {
     return this._http.post(this.apiUrl, data); 
   }
 
+  updateEmployee(id :number,data: any): Observable<any> {
+    return this._http.put(`http://localhost:3000/employees/${id}`,data); 
+  }
+
 
   getEmployeeList(): Observable<any> {
     return this._http.get(this.apiUrl); 
@@ -22,4 +26,6 @@ export class EmployeeService {
   return this._http.delete(`http://localhost:3000/employees/${id}`)
 
   }
+  
+  
 }
