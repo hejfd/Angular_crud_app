@@ -1,0 +1,58 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "employees": [
+    {
+      "id": "95e4",
+      "firstName": "jerin",
+      "lastName": "james",
+      "email": "jerin@gmail.com",
+      "dob": "2001-12-31T18:30:00.000Z",
+      "gender": "Male",
+      "education": "mercedes"
+    },
+    {
+      "id": "9666",
+      "firstName": "jerin",
+      "lastName": "kj",
+      "email": "kj@gmail.com",
+      "dob": "2001-12-31T18:30:00.000Z",
+      "gender": "Male",
+      "education": "audi"
+    },
+    {
+      "id": "2db2",
+      "firstName": "kk",
+      "lastName": "kk",
+      "email": "kk@gmail.com",
+      "dob": "0999-12-31T18:06:32.000Z",
+      "gender": "Male",
+      "education": "saab"
+    }
+  ]
+}

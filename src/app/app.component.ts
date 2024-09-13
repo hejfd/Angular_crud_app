@@ -5,6 +5,8 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatDialog, MatDialogModule} from '@angular/material/dialog'
 import { EmpAddEditComponent } from './emp-add-edit/emp-add-edit.component';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import { HttpClientModule } from '@angular/common/http';
 
  
 @Component({
@@ -13,6 +15,9 @@ import { EmpAddEditComponent } from './emp-add-edit/emp-add-edit.component';
   imports: [RouterOutlet,MatToolbarModule,MatIconModule,
     MatButtonModule,
     MatDialogModule,
+    MatFormFieldModule,
+    HttpClientModule,
+   
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
