@@ -11,6 +11,11 @@ export class EmployeeService {
   constructor(private _http: HttpClient) { }
 
   addEmployee(data: any): Observable<any> {
-    return this._http.post(this.apiUrl, data); // This should work fine if HttpClientModule is imported
+    return this._http.post(this.apiUrl, data); 
   }
+
+
+  getEmployeeList(): Observable<any> {
+    return this._http.get(this.apiUrl); 
+}
 }
