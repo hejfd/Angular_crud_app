@@ -43,7 +43,7 @@ import { CommonModule } from '@angular/common';
 export class AppComponent implements OnInit {
   title = 'sample_project';
 
-  displayedColumns: string[] = ['id','firstName', 'lastName', 'email', 'education','dob','gender'];
+  displayedColumns: string[] = ['id','firstName', 'lastName', 'email', 'education','dob','gender','action'];
   dataSource!: MatTableDataSource<any>;
 
   @ViewChild(MatPaginator) paginator!: MatPaginator;
@@ -79,6 +79,18 @@ export class AppComponent implements OnInit {
     if (this.dataSource.paginator) {
       this.dataSource.paginator.firstPage();
     }
+  }
+  
+  deleteEmployee(id:number){
+    this._empService.deleteEmployee(id).subscribe({
+      next:(res)=>{
+        alert("Employee Removed Successfully")
+        this.getEmployeeList()
+      },
+      error:(err)=>{
+        console.log(err)
+      }
+    })
   }
 
 }

@@ -9,6 +9,7 @@ import { ReactiveFormsModule, FormBuilder, FormGroup } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http'; // Import HttpClientModule
 import { EmployeeService } from '../services/employee.service';
 import { DialogRef } from '@angular/cdk/dialog';
+import { AppComponent } from '../app.component';
 
 @Component({
   selector: 'app-emp-add-edit',
@@ -50,6 +51,7 @@ export class EmpAddEditComponent {
         (response) => {
           alert("Employee added successfully")
           this._dialogeRef.close()
+          this._empService.getEmployeeList()
         },
         (error) => {
           console.error('Error occurred while adding employee:', error);
